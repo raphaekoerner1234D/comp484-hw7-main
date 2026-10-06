@@ -1,0 +1,166 @@
+/* Color Palette
+# - color 1: gray
+# - color 2: beige
+# - color 3: burlywood
+# - color 4: gray
+*/
+
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.content-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+body {
+    /*background: black;*/
+    background-color: black;
+    margin: 0;
+    /* google font adjustment */
+    font-family: "Clarity City", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+}
+
+/* google font for all headings */
+h1 {
+    font-family: "Isometra", sans-serif;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Isometra", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Isometra", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wholeResume {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+
+header {
+    background-color: gray;
+}
+
+.profile-img {
+    /* width: 300px; */
+    border-radius: 50%;
+     /*float: left;
+    margin-right: 30px; */
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+.footerContainer {
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+.sectionContainer {
+    background-color: beige;
+    padding: 40px;
+    
+}
+
+.workImage {
+    background-image: linear-gradient(rgba(245, 245, 220, 0.9)), url("../images/ios.jpeg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.workImage2 {
+    background-image: linear-gradient(rgba(245, 245, 220, 0.6)), url("../images/ref84.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+/* Education
+------------------------------------*/
+.educationContainer {
+    background-color: burlywood;
+    padding: 60px;
+    padding-right: 0px;
+}
+
+.education {
+    padding-bottom: 60px;
+}
+
+.education p{
+   margin: 0px;
+}
+
+.flowRight {
+    float: right;
+    width: 60%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.flowRight2{
+    float: right;
+    width: 60%;
+    height: 200px;
+    margin-top: 70px;
+}
+
